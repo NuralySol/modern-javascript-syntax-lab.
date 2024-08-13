@@ -13,7 +13,8 @@ console.log(numbers);
 
 // EX 2
 
-// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. 
+// Log both variables.
 
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
@@ -41,7 +42,8 @@ console.log(model); // Logs 'q5'
 
 // Ex 4
 
-// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. 
+// Then, log the variable.
 
 const pizzaToppingz = ['Pineapple', 'Olives', 'Anchovies'];
 
@@ -146,6 +148,7 @@ console.log('User theme setting:', USER_THEME);
 // };
 
 // let cat; 
+
 // Your code here
 const adventurer = {
     name: 'Alice',
@@ -153,7 +156,7 @@ const adventurer = {
 
 let cat = adventurer.cat?.age;  
 
-console.log(cat);  // Logs: undefined
+console.log(cat);  
 
 
 
